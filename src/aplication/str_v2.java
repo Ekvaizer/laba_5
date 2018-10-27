@@ -3,11 +3,11 @@ package aplication;
 public class str_v2 {
 
 	public static void main(String[] args) {
-		String sb="“ÓÍ‡¸“Ó˜“Ë‚";
-		String destString = sb.toString().replace('Ú', 'Ó');
-		String destString1="" ;
-		destString1= destString.toString().replace('“','Œ');
-		System.out.println(destString1);
-		    }
-		     
-		} 
+		String string="–¢–æ–∫–∞—Ä—å–¢–æ—á–¢–∏–≤";
+		String dString = string.toString().replace('—Ç', '–æ');
+		String dString1="" ;
+		dString1= dString.toString().replace('–¢','–û');
+		System.out.println(dString1);
+	}
+
+} } 
